@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Quotes</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class="min-vh-100 d-flex justify-content-center align-items-center flex-column">
+        <div class="container d-flex justify-content-center  align-items-center flex-column  py-5">
+            <h1 class="text-white-50 fw-bolder">Daily Quotes</h1>
+            <h2 class="fw-lighter text-white-50">Press the button below to receive a random quote!... </h2>
+            <button onclick="newQuote();" class="btn btn-outline-light mt-2 fw-semibold">New Quote</button>
+
+        </div>
+        <div class="quotes p-3 mt-2 w-50 h-50 text-center">
+            <blockquote id="quote-item" class=" mt-2 fw-semibold text-white-50 bg-dark border border-dark rounded-2">
+               
+            </blockquote>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
